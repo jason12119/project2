@@ -1,0 +1,1 @@
+function setBg(){var o=Math.floor(16777215*Math.random()).toString(16);$("body").css("background-color","#"+o)}$(function(){$(".main-carousel").flickity({cellAlign:"left",contain:!0}),$("#colorChanger").on("click",setBg)});
